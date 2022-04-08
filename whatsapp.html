@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Icon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none ;
+
+        }
+
+        html,
+        body {
+            display: grid;
+            height: 100%;
+            width: 100%;
+            place-items: center;
+            background-color: black;
+            background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+        }
+        .wrapper .button {
+            display: inline block;
+            height: 60px;
+            width: 60px;
+            float: left;
+            margin: 0 5px;
+            overflow: hidden;
+            background-color: #fff;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 10px 10px rgba(0 0 0 0.1);
+            transition: 0.4s;
+
+        }
+
+        .wrapper .button:hover {
+            width: 200px;
+        }
+
+        .wrapper .button .icon {
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            border-radius: 50px;
+            box-sizing: border-box;
+            line-height: 50px;
+        }
+
+        .wrapper .button:nth-child(1):hover .icon {
+            background: #4267B2;
+        }
+
+        .wrapper .button:nth-child(2):hover .icon {
+            background: green;
+        }
+
+        .wrapper .button:nth-child(3):hover .icon {
+            background: #1da1f2;
+        }
+
+        .wrapper .button:nth-child(4):hover .icon {
+            background: rgb(236, 20, 20);
+        }
+
+        .wrapper .button:nth-child(5):hover .icon {
+            background: #0055ff;
+        }
+
+        .wrapper .button:nth-child(6):hover .icon {
+            background: #3d3f42;
+        }
+
+        .wrapper .button:nth-child(7):hover .icon {
+            background: #f71156;
+        }
+
+        .wrapper .button .icon i {
+            font-size: 25px;
+            line-height: 60px;
+        }
+
+        .wrapper .button span {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 50px;
+            margin-left: 10px;
+        }
+
+        .wrapper .button:nth-child(1) span {
+            color: #4267B2;
+        }
+
+        .wrapper .button:nth-child(2) span {
+            color: green;
+        }
+
+        .wrapper .button:nth-child(3) span {
+            color: #1da1f2;
+        }
+
+        .wrapper .button:nth-child(4) span {
+            color: rgb(236, 20, 20);
+        }
+
+        .wrapper .button:nth-child(5) span {
+            color: #0055ff;
+        }
+
+        .wrapper .button:nth-child(6) span {
+            color: #3d3f42;
+        }
+
+        .wrapper .button:nth-child(7) span {
+            color: #f71156;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon"><i class="fab fa-facebook"></i></div>
+                <a href="#"><span>Facebook</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                <a href="#"><span>Whatsapp</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-twitter"></i></div>
+                <a href="#"><span>Twitter</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-youtube"></i></div>
+                <a href="#"><span>YouTube</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-linkedin"></i></div>
+                <a href="#"><span>Linkedin</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-github"></i></div>
+                <a href="#"><span>Github</span></a>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-instagram"></i></div>
+                <a href="#"><span>Instagram</span></a>
+            </div>
+        </div>
+    </nav>
+
+</body>
+
+</html>
